@@ -10,3 +10,9 @@ menu.style.fontSize = "25px";
 // Classes
 
 menu.className = "main-menu";
+
+const button = document.querySelector("button");
+
+button.addEventListener("click", () => {
+	menu.classList.toggle("invisible");
+});
